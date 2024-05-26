@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gold Center Club</title>
+      <!-- Altri tag di intestazione -->
+      <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+ 
+  <link rel="stylesheet" href="slider.css">
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+  <!-- NAVBAR -->
+
+    <nav class="Navbar">
+      <div class="container">
+        <div class="Logo">GOLD CENTER</div>
+
+        <div id="menu" class="menu">
+          <header class="inline">
+            <div class="Logo">MENù</div>
+            <button id="closeMenuBtn" title="Close Menu" aria-label="Close Menu" class="NavButton">
+              <i class="ri-close-line"></i>
+            </button>
+          </header>
+
+          <a href="#" class="NavLink">Home</a>
+          <a href="#schedules" class="NavLink">Orari</a>
+          <a href="#plans" class="NavLink">Dove siamo</a>
+          <a href="#candidati" class="NavLink">Lavora con noi</a>
+          <a href="#form" class="NavLink">Contattaci</a>
+        </div>
+
+        <button id="openMenuBtn" title="Open Menu" aria-label="Open Menu" class="NavButton">
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- APERTURA SITO -->
+
+    <main>
+      <section id="home">
+        <div class="hero">
+          <div class="visual">
+            <picture>
+              <source srcset="./sfondo.jpeg" type="image/avif" media="(width > 1024px)"/>
+              <source srcset="./sfondo.jpeg" type="image/avif"/>
+              <source srcset="./sfondo.jpeg" media="(width > 1024px)" type="image/webp"/>
+              <img src="./sfondo.jpeg" alt="fitness"/>
+            </picture>
+          </div>
+
+          <div class="content">
+            <img src="logo.png" alt="" style="display: block; width: 300px; text-align: center;">
+            <h1></h1>
+        
+            <div class="wrapper">
+              <a href="#discover" class="LinkButton Primary"> Scopri di più </a>
+            </div>
+          </div>
+        </div>
+
+        <div id="discover" class="fold">
+          <div class="subject">
+            <p>Boutique dello sport, <span style="color: var(--brand-1)"> un vero oggetto di stile per chi la sceglie</span>, tu sei importante.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEZIONE ORARI -->
+
+
+      <section id="schedules" class="schedule">
+        <div class="subject">
+          <div class="container">
+            <div class="table-wrapper">
+              <h2>Corsi</h2>
+              <table>
+                <tr>
+                  <th>Giorno</th>
+                  <th>Corso</th>
+                  <th>Orari</th>
+                </tr>
+                <tr>
+                  <td>Lunedì</td>
+                  <td>Zumba</td>
+                  <td>6:00 AM</td>
+                </tr>
+                <tr>
+                  <td>Martedì</td>
+                  <td>Fitness</td>
+                  <td>7:00 AM</td>
+                </tr>
+                <tr>
+                  <td>Mercoledì</td>
+                  <td>Yoga</td>
+                  <td>6:30 AM</td>
+                </tr>
+                <tr>
+                  <td>Giovedì</td>
+                  <td>Yoga</td>
+                  <td>6:00 AM</td>
+                </tr>
+                <tr>
+                  <td>Venerdì</td>
+                  <td>Danza del ventre</td>
+                  <td>8:00 AM</td>
+                </tr>
+                <tr>
+                  <td>Sabato</td>
+                  <td>Danza del ventre</td>
+                  <td>8:00 AM</td>
+                </tr>
+              </table>
+            </div>
+            <div class="table-wrapper">
+              <h2>SALA ATTREZZI</h2>
+              <table>
+                
+                <tr>
+                  <th>Giorno</th>
+                  <th>Apertura</th>
+                  <th>Chiusura</th>
+                </tr>
+               <tr>
+                  <td>Lunedì</td>
+                  <td>8:30</td>
+                  <td>21:30</td>
+                </tr>
+                <tr>
+                  <td>Martedì</td>
+                  <td>8:30-13:00</td>
+                  <td>15:15-21:00</td>
+                </tr>
+                <tr>
+                  <td>Mercoledì</td>
+                  <td>8:30</td>
+                  <td>21:30</td>
+                </tr>
+                <tr>
+                  <td>Giovedì</td>
+                  <td>8:30-13:00</td>
+                  <td>15:15-21:00</td>
+                </tr>
+                <tr>
+                  <td>Venerdi</td>
+                  <td>8:30</td>
+                  <td>21:30</td>
+                </tr>
+                <tr>
+                  <td>Sabato</td>
+                  <td>8:30-13:00</td>
+                  <td>15:15-19:30</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- VIDEO  -->
+
+        <div class="showcase">
+         <video autoplay loop muted>
+            <source src="https://www.goldcenterclub.it/wp-content/uploads/2022/07/VID-20210909-WA0062.mp4" type="video/mp4" />
+          </video>
+          <img src="./GOLDCLUB.png" alt="Rhythm" />
+        </div>
+      </section>
+
+      <!-- Sezione FOUNDER /  MAPPE -->
+
+      <section id="plans" class="cards">
+        <div class="subject">
+          <div class="container">
+            <a href="https://shorturl.at/AlKH0" target="_blank" class="Card">
+              <i class="ri-trophy-line"></i>
+              <div>
+                <h2>Sede 2</h2>
+                <ul>
+                  <li>San Marco in Lamis</li>
+                  <li>Via Achille Grandi, 50, 71014</li>
+                  <li>0882 606038</li>
+                </ul>
+              </div>
+            </a>
+            <a href="./founder/founder.html" target="_blank" class="Card">
+              <i class="ri-flag-2-line"></i>
+              <div>
+                <h2>Founder</h2>
+                <ul>
+                  <li>Carmine Bernabotto</li>
+              
+                </ul>
+              </div>
+            </a>
+            <a href="https://shorturl.at/u6H0O" target="_blank" class="Card">
+              <i class="ri-team-line"></i>
+              <div>
+                <h2>Sede 1</h2>
+                <ul>
+                  <li>San Giovanni Rotondo</li>
+                  <li>Viale della Gioventù, 23a, 71013</li>
+                  <li>0882 606038</li>
+                </ul>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Sezione contatti -->
+
+      <section id="contatti" class="about">
+        <div id="candidati" class="fold">
+          <div class="subject">
+            <p>Sii parte del nostro team, clicca qui e <span style="color: var(--brand-1)"><a href="https://hyi1f83g5hu.typeform.com/to/d9yUdLtu" target="_blank" style="color: hsl(41, 100%, 58%);">Lavora con noi</a></span>, tu sei importante. 
+              Oppure se hai bisogno di informazioni, contattaci qui sotto.</p>
+          </div>
+        </div>
+        <form id="form">
+          <div class="field">
+            <label for="from_name">Nome</label>
+            <input type="text" name="from_name" id="from_name">
+          </div>
+          <div class="field">
+            <label for="email_id">Email</label>
+            <input type="text" name="email_id" id="email_id">
+          </div>
+          <div class="field">
+            <label for="message">Messaggio</label>
+            <input type="text" name="message" id="message" >
+          </div>
+        
+          <input type="submit" id="button" value="INVIA" >
+        </form>
+        
+        <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        
+        <script type="text/javascript">
+          emailjs.init('8dVKrT6W-3HjU96q5')
+        </script>
+      </section>
+      
+     
+
+   <!-- Carosello Video Testimonial -->
+
+<body>
+
+
+  <div id="testimonial" class="fold">
+    <div class="subject">
+      <p>Il parere di chi ci ha <span style="color: var(--brand-1)"> scelto</span>.</p>
+    </div>
+    </div><div class="carousel">
+  <div class="carousel-inner" id="carousel-inner">
+  </div>
+  <button class="prev" onclick="prevSlide()">&#10094;</button>
+  <button class="next" onclick="nextSlide()">&#10095;</button>
+</div>
+
+<script src="carosello.js"></script>
+
+ <section id="about" class="about">
+        <div id="target-word">love</div>
+        <!-- Footer  -->
+        <footer>
+          <marquee class="marquee-inner" direction="right" style="display: inline-block; display: block;">
+            <img src="./sponsor/sponsor1.jpeg" width="110" height="50" alt="Sponsor 1"/>
+            <img src="./sponsor/sponsor2.jpeg" width="110" height="50" alt="Sponsor 2"/>
+            <img src="./sponsor/sponsor3.jpeg" width="110" height="50" alt="Sponsor 3"/>
+            <img src="./sponsor/sponsor4.jpeg" width="110" height="50" alt="Sponsor 4"/>
+           <!-- <img src="./sponsor/sponsor5.jpeg" width="110" height="50" alt="Sponsor 5"/> -->
+            <img src="./sponsor/sponsor6.jpeg" width="110" height="50" alt="Sponsor 6"/>
+            <img src="./sponsor/sponsor7.jpeg" width="110" height="50" alt="Sponsor 7"/>
+            <img src="./sponsor/sponsor8.jpeg" width="110" height="50" alt="Sponsor 8"/>
+            <img src="./sponsor/sponsor9.jpeg" width="110" height="50" alt="Sponsor 9"/>
+            <img src="./sponsor/sponsor10.jpeg" width="110" height="50" alt="Sponsor 10"/>
+            <img src="./sponsor/sponsor11.jpeg" width="110" height="50" alt="Sponsor 11"/>
+            <img src="./sponsor/sponsor12.jpeg" width="110" height="50" alt="Sponsor 12"/>
+          </marquee>
+        </div>
+          <br><br>
+          <div class="social" style="display: inline-block;">
+         <a href="https://www.facebook.com/people/Gold-Center-Club-ssd/100063824352980/" target="_blank"> <img src="./social/facebook.png"  alt="facebook" width="50" height="50"></a>
+         <a href="https://www.instagram.com/gold_center_club?igsh=bHNpZ3VhZWo1Nlx" target="_blank"> <img src="./social/instagram.png" alt="instagram" width="50" height="50"></a>
+        
+          </div>
+          <br><br>
+          <div class="rights" style="display: inline-block;">
+          <p>© 2024 - All rights reserved</p>
+          <p>Created and designed by CastermustOfficial</p></div>
+        </footer>
+  </section>
+       
+       
+
+      <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+    </a>
+    <!-- scripts -->
+
+    <script src="script.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('8dVKrT6W-3HjU96q5')
+</script>
+</body>
+</html>
