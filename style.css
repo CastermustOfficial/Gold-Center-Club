@@ -3,6 +3,7 @@
   layer(base.normalize);
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 @layer base.override-normalize {
   :root {
@@ -47,6 +48,7 @@
 
 @layer containers {
   .Navbar {
+    margin-top: none;
     position: sticky;
     inset-block-start: 0;
     z-index: var(--layer-3);
@@ -69,6 +71,8 @@
     }
 
     .menu {
+      margin-left: auto;
+      margin-top: 15px;
       list-style: none;
       display: flex;
       background-color: var(--surface-1);
@@ -88,6 +92,7 @@
         inset-block: 0;
         inset-inline-end: 0;
         inline-size: 100%;
+        font-size: 20px;
         gap: var(--size-7);
 
         display: none;
@@ -392,10 +397,15 @@
   }
 
   .NavButton {
+    color: hsl(41, 100%, 58%);;
+    margin-left: auto;
+    margin-top: 15px;
     padding: var(--size-2);
-    background-color: hsl(41, 100%, 58%);;
+    background-color: hsla(41, 100%, 58%, 0);;
     border-radius: 00%;
     > i {
+      margin-left: auto;
+      margin-bottom: 10px;
       font-size: var(--font-size-6);
       border-radius: 0%;
     }
@@ -613,6 +623,7 @@
 /* Stile per il bottone fluttuante di WhatsApp */
 .whatsapp-float {
   position: fixed;
+  margin-bottom: 50px;
   width: 60px;
   height: 60px;
   bottom: 20px;
@@ -700,8 +711,30 @@ footer .social img {
   margin-right: 10px; /* Spazio tra le immagini */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.scritta{
+  margin-left: 25px;
+  margin-top: 10px;
+  font-family: "Lobster", sans-serif;
+  color: hsl(41, 100%, 58%);
+  font-size: 50px;
+}
+
+.Logo {
+  margin-top: 15px;
+  margin-right: auto;
+}
 
 
-
-
-
+.maquee{
+  position: absolute;
+  animation: infinite;
+  display: inline-block;
+}
